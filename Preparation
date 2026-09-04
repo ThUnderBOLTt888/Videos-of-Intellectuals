@@ -1,0 +1,43 @@
+I searched for some data science related internships in the internet and uploaded one of them to claude from indeed.
+I asked claude to generate CVs of three people, one who would definitely quality for the job, one who would be a competitive candidate for the job and one more that would have less experience but more projects in the resume.
+For easy comprehension, here is the identity:
+- Sarah (expert)
+- Maya (competitive)
+- Daniel (project-intensive)
+
+Sarah's summary:
+Graduating senior in Data Science with two utility-sector internships, a peer-reviewed research poster, and hands-on experience across the
+full analytics stack -- from cloud data pipelines to deployed ML models. Proven ability to translate ambiguous business questions into
+rigorous, production-ready analysis. Seeking to bring direct energy-industry experience to Dairyland Power Cooperative's Data Science team.
+
+Technical Skills
+
+Languages and Libraries: Python (pandas, NumPy, scikit-learn, PyTorch, matplotlib), SQL, R
+Data and Cloud: Microsoft Fabric, Azure Data Late, AWS (S3, Lambda), ETL/data pipeline design, REST and vendor API integration, relational & Lakehouse architectures
+Tools: Git/GitHub, Power BI, Jupyter, Docker (basic), Airflow (academic exposure)
+Core Concepts: Statistical inference, hypothesis testing, regression and classification modeling, time series forecasting, model validation and monitoring, data governance
+
+Daniel's summary:
+Sophomore Data Science student who builds independent, end-to-end projects spanning data pipelines, statistical analysis, and predictive modeling.
+Eager to bring self-directed technical skills and strong fundamentals to support Dairyland Power Cooperative's data and analytics initiatives.
+
+Projects:
+
+Regional Electricity Demand Forecasting Model
+Built a time-series forecasting model (Python, scikit-learn, Prophet) using five years of public regional load data to predict daily electricity demand,
+achieving ~7% MAPE
+Engineered features from weather, calendar, and historical usage data to improve model accuracy over a naive baseline by 19%
+Automated data ingestion from a public utility API into a local SQLite database using a schedule Python script
+
+Solar Panel Output Anomaly Detection
+Developed a classification model to flag underperforming solar panels from sensor telemetry, comparing logistic regression, random forest, and gradient boosting
+Built an ninteractive Power BI dashboard to visualize flagged anomalies and model confidence for a non-technical audience
+
+Household Energy Usage ETL Pipeline & Dashboard
+Designed a Python ETL pipeline to ingest, clean, and load a public smart-meter dataset (~2M readings) into a local PostgreSQL database
+Wrote SQL queries and views to support downstream reporitng; documented schema and pipeline logic in a project README
+
+Wind Turbine Predictive Maintenance (Kaggle Competition)
+Trained and tuned gradient boosting and random forest models on sensor data to predict turbine component failure windows
+Applied cross-validation an feature importance analysis to reduce overfitting and improve model intepretability
+
