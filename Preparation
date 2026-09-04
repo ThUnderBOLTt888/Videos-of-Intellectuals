@@ -35,7 +35,7 @@ Built an ninteractive Power BI dashboard to visualize flagged anomalies and mode
 
 Household Energy Usage ETL Pipeline & Dashboard
 Designed a Python ETL pipeline to ingest, clean, and load a public smart-meter dataset (~2M readings) into a local PostgreSQL database
-Wrote SQL queries and views to support downstream reporitng; documented schema and pipeline logic in a project README
+Wrote SQL queries and views to support downstream reporting; documented schema and pipeline logic in a project README
 
 Wind Turbine Predictive Maintenance (Kaggle Competition)
 Trained and tuned gradient boosting and random forest models on sensor data to predict turbine component failure windows
